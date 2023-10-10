@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.gradientcolumnchart.GradientColumnChart" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Gradient Column Chart</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+   <property key="data" type="datasource" isList="true" required="false">
+	<caption>Gradient Column Chart</caption>
+	<description >the data source of the chart</description>
+</property>
+<property key="title" type="string" required="false">
+	<caption>Name of the Chart</caption>
+    <description/>
+</property>
+        </propertyGroup>
+    </properties>
+</widget>
