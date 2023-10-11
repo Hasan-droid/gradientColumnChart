@@ -72,17 +72,17 @@ export default function GradientColumnChart({ data, title }) {
                     showBackground: true,
                     itemStyle: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            { offset: 0, color: "#E1D4A3" },
-                            { offset: 0.5, color: "#D4A3E1" },
-                            { offset: 1, color: "#188df0" }
+                            { offset: 0, color: "#a3aeb8" },
+                            { offset: 0.2, color: "#7697b3" },
+                            { offset: 1, color: "#5d8aaf" }
                         ])
                     },
                     emphasis: {
                         itemStyle: {
-                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                                { offset: 0, color: "#E1D4A3" },
-                                { offset: 0.7, color: "#E1D4A3" },
-                                { offset: 1, color: "#E1A3CF" }
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 0.4, [
+                                { offset: 0, color: "#d3d7db" },
+                                { offset: 0.2, color: "#d3d7db" },
+                                { offset: 0.9, color: "#608baf" }
                             ])
                         }
                     },
